@@ -1,7 +1,7 @@
 ---
 title: FinMME
 authors:
-  - lab
+  - zhizhuo-kou
 date: '2025-05-01T00:00:00Z'
 publishDate: '2025-05-01T00:00:00Z'
 publication_types: ['article']

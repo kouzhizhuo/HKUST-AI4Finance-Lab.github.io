@@ -9,9 +9,8 @@ sections:
       title: Contact
       subtitle: ''
       text: |
-        For collaboration, student opportunities, and research inquiries, please contact:
+        For collaboration, student opportunities, and research inquiries, please contact [siruihan@ust.hk](mailto:siruihan@ust.hk).
 
-        - Email: [siruihan@ust.hk](mailto:siruihan@ust.hk)
         - Google Scholar: [Profile](https://scholar.google.com/citations?hl=zh-CN&user=jzJL2csAAAAJ)
         - Website: [HKUST-AI4Finance-Lab](https://kouzhizhuo.github.io/HKUST-AI4Finance-Lab.github.io/)
         - GitHub: [Website Repository](https://github.com/kouzhizhuo/HKUST-AI4Finance-Lab.github.io)

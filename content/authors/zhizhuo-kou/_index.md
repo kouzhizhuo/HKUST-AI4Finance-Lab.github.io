@@ -22,8 +22,7 @@ social:
     link: https://dblp.org/pid/354/9996.html
 email: ''
 highlight_name: true
-user_groups:
-  - Ph.D Students
+user_groups: []
 ---
 
 Mr. Zhizhuo Kou is a Ph.D student at HKUST-AI4Finance-Lab.

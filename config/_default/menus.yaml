@@ -8,12 +8,9 @@ main:
   - name: Join Us
     url: '#hiring'
     weight: 25
-  - name: Publications
-    url: publication
+  - name: Outputs
+    url: outputs
     weight: 30
-  - name: People
-    url: people
-    weight: 40
   - name: Contact
     url: contact
     weight: 50

@@ -15,11 +15,11 @@ sections:
 
         **Benchmark -> Understanding -> Agent -> Application**
       cta:
-        label: Publications
-        url: publication/
+        label: Research Outputs
+        url: outputs/
       cta_alt:
-        label: People
-        url: people/
+        label: Research Agenda
+        url: '#agenda'
     design:
       background:
         color: '#ffffff'
@@ -39,17 +39,19 @@ sections:
     design:
       columns: '1'
 
-  - block: collection
+  - block: markdown
     content:
-      title: Benchmark and Agent Projects
-      text: ''
-      count: 4
-      filters:
-        folders:
-          - publication
-      order: asc
+      title: Research Output Stack
+      subtitle: ''
+      text: |
+        Our research outputs are organized as a progression:
+
+        - **Data and Benchmarks** establish reliable evaluation settings for financial AI.
+        - **Algorithms and Agents** develop decision policies for credit assessment, portfolio routing, and strategy discovery.
+        - **Collaboration Frameworks** connect benchmarks, models, agents, and audit trails into reusable financial AI systems.
+
+        See the [Research Outputs](outputs/) page for the structured view.
     design:
-      view: citation
       columns: '1'
 
   - block: markdown
