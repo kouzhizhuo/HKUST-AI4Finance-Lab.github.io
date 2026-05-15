@@ -1,0 +1,24 @@
+name = "HKUST"
+
+[light]
+  primary = "#003366"
+  link = "#003366"
+  link_hover = "#B4A269"
+  menu_primary = "#ffffff"
+  menu_text = "#1b2a38"
+  menu_text_active = "#003366"
+  menu_title = "#003366"
+  home_section_odd = "#ffffff"
+  home_section_even = "#f7f8fa"
+
+[dark]
+  primary = "#B4A269"
+  link = "#B4A269"
+  link_hover = "#ffffff"
+  menu_primary = "#0d1720"
+  menu_text = "#f4f7fb"
+  menu_text_active = "#B4A269"
+  menu_title = "#ffffff"
+  background = "#0d1720"
+  home_section_odd = "#0d1720"
+  home_section_even = "#111d28"

@@ -1,0 +1,78 @@
+appearance:
+  theme_day: hkust
+  theme_night:
+  font: native
+  font_size: M
+
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: HKUST-AI4Finance-Lab
+    description: Benchmark-driven, interpretable, and auditable AI for high-stakes finance.
+    twitter: ''
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
+  verification:
+    google: ''
+    baidu: ''
+
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: false
+    show_search: true
+    highlight_active_link: true
+
+footer:
+  copyright:
+    notice: '© {year} HKUST-AI4Finance-Lab'
+    license:
+      enable: false
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - latex
+  math:
+    enable: true
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/kouzhizhuo/HKUST-AI4Finance-Lab.github.io'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+  search:
+    provider: wowchemy
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+
+extensions:
+  decap_cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+publications:
+  date_format: January 2006
+  citation_style: apa
