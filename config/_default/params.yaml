@@ -8,7 +8,7 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: HKUST-AI4Finance-Lab
+    org_name: HKUST-AI4Finance Group
     description: Benchmark-driven, interpretable, and auditable AI for high-stakes finance.
     twitter: ''
   analytics:
@@ -32,7 +32,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} HKUST-AI4Finance-Lab'
+    notice: '© {year} HKUST-AI4Finance Group'
     license:
       enable: false
 

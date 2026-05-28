@@ -1,9 +1,9 @@
 ---
-title: HKUST-AI4Finance-Lab
+title: HKUST-AI4Finance Group
 first_name: HKUST
-last_name: AI4Finance-Lab
+last_name: AI4Finance Group
 superuser: true
-role: Research Lab
+role: Research Group
 organizations:
   - name: The Hong Kong University of Science and Technology
     url: 'https://hkust.edu.hk/'
@@ -20,7 +20,7 @@ social:
 email: ''
 highlight_name: true
 user_groups:
-  - Lab
+  - Group
 ---
 
-HKUST-AI4Finance-Lab studies benchmark-driven, interpretable, and auditable AI systems for high-stakes financial applications.
+HKUST-AI4Finance Group studies benchmark-driven, interpretable, and auditable AI systems for high-stakes financial applications.

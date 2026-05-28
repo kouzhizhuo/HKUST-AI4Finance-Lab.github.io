@@ -1,4 +1,4 @@
-title: HKUST-AI4Finance-Lab
+title: HKUST-AI4Finance Group
 baseURL: 'https://kouzhizhuo.github.io/HKUST-AI4Finance-Lab.github.io/'
 
 defaultContentLanguage: en
@@ -35,6 +35,9 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
 related:
   threshold: 80
   includeNewer: true

@@ -1,6 +1,6 @@
 ---
 title: Research Outputs
-date: 2026-05-15
+date: 2026-05-28
 type: landing
 
 sections:
@@ -9,7 +9,10 @@ sections:
       title: Research Outputs
       subtitle: ''
       text: |
-        We organize our work as a progression from financial data and benchmark construction, to decision algorithms and agent policies, and finally to collaboration frameworks for deployable financial AI systems.
+        <div class="aif-page-intro">
+          <p class="eyebrow">From evaluation substrate to deployable financial agents</p>
+          <p>We organize publications as a research stack: datasets define what matters, algorithms decide under uncertainty, and collaboration frameworks make the systems auditable and reusable.</p>
+        </div>
     design:
       columns: '1'
 
@@ -19,11 +22,11 @@ sections:
       title: Data and Benchmarks
       subtitle: ''
       text: |
-        These works define the evaluation substrate for financial AI: credit logs, multimodal financial reasoning, and credit table understanding.
-
-        - [FinMME](/HKUST-AI4Finance-Lab.github.io/publication/finmme/) — financial multi-modal reasoning benchmark.
-        - [CCLUPE](/HKUST-AI4Finance-Lab.github.io/publication/cclupe/) — credit context log understanding and prediction benchmark.
-        - [MMFCTUB](/HKUST-AI4Finance-Lab.github.io/publication/mmfctub/) — multi-modal financial credit table understanding benchmark.
+        <div class="paper-grid">
+          <a class="paper-card" href="/HKUST-AI4Finance-Lab.github.io/publication/finmme/"><span class="tag">ACL 2025 · 29 cites</span><h3>FinMME</h3><p>Financial multi-modal reasoning benchmark for robust evaluation.</p></a>
+          <a class="paper-card" href="/HKUST-AI4Finance-Lab.github.io/publication/cclupe/"><span class="tag">Preprint · 2026</span><h3>CCLUPE</h3><p>Credit context log understanding and prediction benchmark.</p></a>
+          <a class="paper-card" href="/HKUST-AI4Finance-Lab.github.io/publication/mmfctub/"><span class="tag">arXiv 2026 · 1 cite</span><h3>MMFCTUB</h3><p>Multi-modal financial credit table understanding benchmark.</p></a>
+        </div>
     design:
       columns: '1'
 
@@ -33,11 +36,11 @@ sections:
       title: Algorithms and Agents
       subtitle: ''
       text: |
-        These works move from measurement to decision-making, studying cost-sensitive credit assessment, routing policies, and LLM-supported strategy discovery.
-
-        - [Learning to Fuse: Cost-Sensitive Credit Assessment via Hierarchical Multi-Agent Reinforcement Learning](/HKUST-AI4Finance-Lab.github.io/publication/learning-to-fuse-cost-sensitive-credit-assessment/)
-        - [When to Route? Regime-Adaptive Meta-Policies for Hierarchical Portfolio Agents](/HKUST-AI4Finance-Lab.github.io/publication/when-to-route-regime-adaptive-meta-policies/)
-        - [Automate Strategy Finding with LLM in Quant Investment](/HKUST-AI4Finance-Lab.github.io/publication/automate-strategy-finding-with-llm-in-quant-investment/)
+        <div class="paper-grid">
+          <a class="paper-card" href="/HKUST-AI4Finance-Lab.github.io/publication/learning-to-fuse-cost-sensitive-credit-assessment/"><span class="tag">Preprint · 2026</span><h3>Learning to Fuse</h3><p>Cost-sensitive credit assessment via hierarchical multi-agent reinforcement learning.</p></a>
+          <a class="paper-card" href="/HKUST-AI4Finance-Lab.github.io/publication/when-to-route-regime-adaptive-meta-policies/"><span class="tag">Preprint · 2026</span><h3>When to Route?</h3><p>Regime-adaptive meta-policies for hierarchical portfolio agents.</p></a>
+          <a class="paper-card featured" href="/HKUST-AI4Finance-Lab.github.io/publication/automate-strategy-finding-with-llm-in-quant-investment/"><span class="tag">EMNLP 2025 · 37 cites</span><h3>Automate Strategy Finding</h3><p>LLM-supported strategy discovery for quantitative investment.</p></a>
+        </div>
     design:
       columns: '1'
 
@@ -47,9 +50,10 @@ sections:
       title: Collaboration Framework
       subtitle: ''
       text: |
-        Our longer-term direction is a collaboration framework that connects financial benchmarks, multimodal understanding, calibrated agents, and auditable application pipelines.
-
-        This layer is intended to turn isolated datasets and algorithms into a reusable research stack for high-stakes financial AI.
+        <div class="framework-panel">
+          <p>Our group is building toward a collaboration framework that connects benchmarks, multimodal understanding, calibrated agents, and audit trails into one reusable financial AI research stack.</p>
+          <div class="mini-flow"><span>Observe</span><span>Reason</span><span>Route</span><span>Audit</span></div>
+        </div>
     design:
       columns: '1'
 ---

@@ -1,6 +1,6 @@
-# HKUST-AI4Finance-Lab Website
+# HKUST-AI4Finance Group Website
 
-This repository contains the Hugo Blox website for HKUST-AI4Finance-Lab.
+This repository contains the Hugo Blox website for HKUST-AI4Finance Group.
 
 ## Update Content
 

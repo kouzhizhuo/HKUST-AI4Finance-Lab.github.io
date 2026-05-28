@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2026-05-15
+date: 2026-05-28
 type: landing
 
 sections:
@@ -9,13 +9,16 @@ sections:
       title: Contact
       subtitle: ''
       text: |
-        For collaboration, student opportunities, and research inquiries, please contact [siruihan@ust.hk](mailto:siruihan@ust.hk).
+        <div class="join-card">
+          <p>For collaboration, student opportunities, research assistant roles, and engineering inquiries, please contact:</p>
+          <a class="button primary" href="mailto:zkouaa@connect.ust.hk">zkouaa@connect.ust.hk</a>
+        </div>
 
-        - Google Scholar: [Profile](https://scholar.google.com/citations?hl=zh-CN&user=jzJL2csAAAAJ)
-        - Website: [HKUST-AI4Finance-Lab](https://kouzhizhuo.github.io/HKUST-AI4Finance-Lab.github.io/)
-        - GitHub: [Website Repository](https://github.com/kouzhizhuo/HKUST-AI4Finance-Lab.github.io)
-
-        We are hiring highly motivated students, research assistants, and engineers interested in LLM applications in quant finance, credit analysis, and related topics.
+        <div class="link-grid">
+          <a href="https://scholar.google.com/citations?hl=en&user=jzJL2csAAAAJ">Google Scholar</a>
+          <a href="https://github.com/kouzhizhuo/HKUST-AI4Finance-Lab.github.io">Website Repository</a>
+          <a href="https://kouzhizhuo.github.io/HKUST-AI4Finance-Lab.github.io/">HKUST-AI4Finance Group</a>
+        </div>
     design:
       columns: '1'
 ---

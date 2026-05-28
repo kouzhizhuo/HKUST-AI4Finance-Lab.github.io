@@ -1,56 +1,81 @@
 ---
 title:
-date: 2026-05-15
+date: 2026-05-28
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     id: top
     content:
-      title: HKUST-AI4Finance-Lab
-      text: |
-        Building benchmark-driven, interpretable, and auditable AI for high-stakes finance.
-
-        We build a full-stack research pipeline for financial AI:
-
-        **Benchmark -> Understanding -> Agent -> Application**
-      cta:
-        label: Research Outputs
-        url: outputs/
-      cta_alt:
-        label: Research Agenda
-        url: '#agenda'
-    design:
-      background:
-        color: '#ffffff'
-      spacing:
-        padding: ['96px', '0', '72px', '0']
-
-  - block: markdown
-    id: research
-    content:
-      title: Research Interests
+      title: ''
       subtitle: ''
       text: |
-        - **Financial Benchmarks** for evaluation, robustness, and hallucination analysis.
-        - **Multimodal Financial Understanding** across tables, logs, text, and time-evolving behaviors.
-        - **Financial Agents** for high-stakes decision-making, calibration, and auditability.
-        - **Real-World Applications** in credit risk, consumer finance, and strategy automation.
+        <div class="aif-hero">
+          <div class="aif-hero-copy">
+            <p class="eyebrow">HKUST · AI for Finance · Benchmark to Agent</p>
+            <h1>Building auditable financial AI from data foundations to decision agents.</h1>
+            <p class="lead">HKUST-AI4Finance Group develops benchmark-driven, interpretable, and deployable AI systems for high-stakes finance, spanning credit analysis, quantitative investment, multimodal understanding, and financial agent collaboration.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="outputs/">Explore Research Outputs</a>
+              <a class="button ghost" href="#scholar">Scholar Snapshot</a>
+            </div>
+          </div>
+          <div class="aif-orbit" aria-label="Research stack diagram">
+            <span class="orbit-label top">Benchmark</span>
+            <span class="orbit-label right">Agent</span>
+            <span class="orbit-label bottom">Application</span>
+            <span class="orbit-label left">Understanding</span>
+            <div class="orbit-core">AI4Finance<br>Group</div>
+          </div>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['96px', '0', '64px', '0']
+
+  - block: markdown
+    id: scholar
+    content:
+      title: Google Scholar Snapshot
+      subtitle: ''
+      text: |
+        <div class="metric-grid">
+          <div class="metric-card"><span class="metric-number">102</span><span class="metric-label">Citations</span></div>
+          <div class="metric-card"><span class="metric-number">4</span><span class="metric-label">h-index</span></div>
+          <div class="metric-card"><span class="metric-number">4</span><span class="metric-label">i10-index</span></div>
+          <div class="metric-card"><span class="metric-number">50</span><span class="metric-label">Peak yearly citations</span></div>
+        </div>
+        <p class="source-note">Fetched from <a href="https://scholar.google.com/citations?hl=en&user=jzJL2csAAAAJ">Google Scholar</a> on 2026-05-28. Current research labels: Quantitative Investment, AI, Agent.</p>
     design:
       columns: '1'
 
   - block: markdown
+    id: research
     content:
-      title: Research Output Stack
+      title: Research Spine
       subtitle: ''
       text: |
-        Our research outputs are organized as a progression:
+        <div class="path-grid">
+          <div class="path-card"><span>01</span><h3>Data and Benchmarks</h3><p>Credit logs, financial tables, and multimodal reasoning tasks that make financial AI measurable.</p></div>
+          <div class="path-card"><span>02</span><h3>Understanding Models</h3><p>Robust representation and reasoning across text, tables, signals, and time-evolving behaviors.</p></div>
+          <div class="path-card"><span>03</span><h3>Algorithms and Agents</h3><p>Cost-sensitive credit policies, regime-adaptive routing, and LLM-supported strategy discovery.</p></div>
+          <div class="path-card"><span>04</span><h3>Auditable Applications</h3><p>Traceable financial decision pipelines for quant finance, credit analysis, and deployed workflows.</p></div>
+        </div>
+    design:
+      columns: '1'
 
-        - **Data and Benchmarks** establish reliable evaluation settings for financial AI.
-        - **Algorithms and Agents** develop decision policies for credit assessment, portfolio routing, and strategy discovery.
-        - **Collaboration Frameworks** connect benchmarks, models, agents, and audit trails into reusable financial AI systems.
-
-        See the [Research Outputs](outputs/) page for the structured view.
+  - block: markdown
+    id: outputs-preview
+    content:
+      title: Featured Outputs
+      subtitle: ''
+      text: |
+        <div class="paper-grid">
+          <a class="paper-card featured" href="publication/automate-strategy-finding-with-llm-in-quant-investment/"><span class="tag">Agent · EMNLP 2025 · 37 cites</span><h3>Automate Strategy Finding with LLM in Quant Investment</h3><p>LLM-supported discovery and audit of quantitative investment strategies.</p></a>
+          <a class="paper-card" href="publication/finmme/"><span class="tag">Benchmark · ACL 2025 · 29 cites</span><h3>FinMME</h3><p>Financial multi-modal reasoning evaluation for robust financial AI.</p></a>
+          <a class="paper-card" href="publication/learning-to-fuse-cost-sensitive-credit-assessment/"><span class="tag">Credit Agent · 2026</span><h3>Learning to Fuse</h3><p>Cost-sensitive credit assessment via hierarchical multi-agent reinforcement learning.</p></a>
+        </div>
+        <p class="center-link"><a href="outputs/">View the full research-output map</a></p>
     design:
       columns: '1'
 
@@ -60,9 +85,10 @@ sections:
       title: Join Us
       subtitle: ''
       text: |
-        We welcome highly motivated students, research assistants, and engineers interested in LLM applications for quant finance, credit analysis, and related topics.
-
-        Please email [siruihan@ust.hk](mailto:siruihan@ust.hk) with your CV and a brief description of your research or engineering interests.
+        <div class="join-card">
+          <p>We welcome highly motivated students, research assistants, and engineers interested in LLM applications for quant finance, credit analysis, financial agents, and related topics.</p>
+          <a class="button primary" href="mailto:zkouaa@connect.ust.hk">zkouaa@connect.ust.hk</a>
+        </div>
     design:
       columns: '1'
 
@@ -72,25 +98,13 @@ sections:
       title: Research Agenda
       subtitle: ''
       text: |
-        We are expanding this research stack toward:
-
-        - Financial World Models for state transition and action-conditioned forecasting.
-        - Financial Decision Calibration for utility-aware and abstention-aware decision systems.
-        - Financial Agent Stress Tests for crisis-aware, regime-shift, and adversarial evaluation.
-        - Cross-Modal Credit Foundation Representations for unified lifecycle modeling.
-        - Auditable Financial Agents for traceable, explainable, and tool-using decision pipelines.
-    design:
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: Links
-      subtitle: ''
-      text: |
-        - [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=jzJL2csAAAAJ)
-        - Website: [HKUST-AI4Finance-Lab](https://kouzhizhuo.github.io/HKUST-AI4Finance-Lab.github.io/)
-        - GitHub: [Website Repository](https://github.com/kouzhizhuo/HKUST-AI4Finance-Lab.github.io)
-        - Contact: [siruihan@ust.hk](mailto:siruihan@ust.hk)
+        <div class="agenda-list">
+          <p><strong>Financial world models</strong> for state transition and action-conditioned forecasting.</p>
+          <p><strong>Decision calibration</strong> for utility-aware and abstention-aware financial systems.</p>
+          <p><strong>Agent stress tests</strong> for crisis-aware, regime-shift, and adversarial evaluation.</p>
+          <p><strong>Cross-modal credit foundations</strong> for unified lifecycle modeling.</p>
+          <p><strong>Auditable agent pipelines</strong> for traceable, explainable, tool-using finance workflows.</p>
+        </div>
     design:
       columns: '1'
 ---

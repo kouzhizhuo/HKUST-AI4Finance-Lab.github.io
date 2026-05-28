@@ -8,7 +8,7 @@ role: Ph.D Student
 organizations:
   - name: The Hong Kong University of Science and Technology
     url: 'https://hkust.edu.hk/'
-bio: Ph.D student at HKUST-AI4Finance-Lab.
+bio: Ph.D student at HKUST-AI4Finance Group.
 interests:
   - Financial AI
   - Multimodal Financial Understanding
@@ -25,4 +25,4 @@ highlight_name: true
 user_groups: []
 ---
 
-Mr. Zhizhuo Kou is a Ph.D student at HKUST-AI4Finance-Lab.
+Mr. Zhizhuo Kou is a Ph.D student at HKUST-AI4Finance Group.

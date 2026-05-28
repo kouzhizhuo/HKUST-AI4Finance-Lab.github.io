@@ -2,17 +2,18 @@
 title: 'When to Route? Regime-Adaptive Meta-Policies for Hierarchical Portfolio Agents'
 authors:
   - zhizhuo-kou
-date: '2025-01-01T00:00:00Z'
-publishDate: '2025-01-01T00:00:00Z'
+date: '2026-05-08T00:00:00Z'
+publishDate: '2026-05-08T00:00:00Z'
 publication_types: ['article']
-publication: ''
-publication_short: ''
+publication: 'Preprints'
+publication_short: 'Preprint'
 abstract: 'This work studies regime-adaptive meta-policies for routing decisions in hierarchical portfolio agents.'
 summary: 'Regime-adaptive meta-policies for hierarchical portfolio agents.'
 tags:
   - Portfolio Agents
   - Meta-Policies
   - Quantitative Investment
+  - Scholar Indexed
 featured: false
 url_pdf: ''
 url_code: ''
@@ -30,3 +31,7 @@ slides: ''
 ---
 
 This work studies when and how hierarchical portfolio agents should route decisions under changing market regimes.
+
+**Authors from Google Scholar:** Zhizhuo Kou, Jian Yang, Junyu Luo, Yuyao Zhang, Sirui Han, Yike Guo.
+
+**Scholar snapshot:** indexed on Google Scholar, no citation count displayed when fetched on 2026-05-28.
