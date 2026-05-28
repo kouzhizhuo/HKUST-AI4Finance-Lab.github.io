@@ -8,12 +8,11 @@ publication_types: ['article']
 publication: 'arXiv preprint arXiv:2601.04643'
 publication_short: 'arXiv 2026'
 abstract: 'MMFCTUB is a multi-modal financial credit table understanding benchmark.'
-summary: 'A multi-modal financial credit table understanding benchmark. Google Scholar: 1 citation as of 2026-05-28.'
+summary: 'A multi-modal financial credit table understanding benchmark. Google Scholar displayed Cited by 1 when fetched on 2026-05-28.'
 tags:
   - Credit Tables
   - Multimodal Understanding
   - Financial Benchmark
-  - 'Scholar: 1 Citation'
 featured: false
 url_pdf: ''
 url_code: ''
@@ -34,4 +33,4 @@ MMFCTUB focuses on financial credit table understanding, connecting tabular stru
 
 **Authors from Google Scholar:** Cui Yakun, Yanting Zhang, Zhu Lei, Jian Xie, Zhizhuo Kou, Hang Du, Zhenghao Zhu, Sirui Han.
 
-**Scholar snapshot:** 1 citation, fetched 2026-05-28.
+**Scholar snapshot:** Google Scholar displayed **Cited by 1** when fetched on 2026-05-28.

@@ -17,7 +17,7 @@ sections:
             <p class="lead">HKUST-AI4Finance Group develops benchmark-driven, interpretable, and deployable AI systems for high-stakes finance, spanning credit analysis, quantitative investment, multimodal understanding, and financial agent collaboration.</p>
             <div class="hero-actions">
               <a class="button primary" href="outputs/">Explore Research Outputs</a>
-              <a class="button ghost" href="#scholar">Scholar Snapshot</a>
+              <a class="button ghost" href="#scholar">Output Snapshot</a>
             </div>
           </div>
           <div class="aif-orbit" aria-label="Research stack diagram">
@@ -36,16 +36,16 @@ sections:
   - block: markdown
     id: scholar
     content:
-      title: Google Scholar Snapshot
+      title: Output Citation Snapshot
       subtitle: ''
       text: |
         <div class="metric-grid">
-          <div class="metric-card"><span class="metric-number">102</span><span class="metric-label">Citations</span></div>
-          <div class="metric-card"><span class="metric-number">4</span><span class="metric-label">h-index</span></div>
-          <div class="metric-card"><span class="metric-number">4</span><span class="metric-label">i10-index</span></div>
-          <div class="metric-card"><span class="metric-number">50</span><span class="metric-label">Peak yearly citations</span></div>
+          <div class="metric-card"><span class="metric-number">6</span><span class="metric-label">Scholar-indexed outputs shown here</span></div>
+          <div class="metric-card"><span class="metric-number">3</span><span class="metric-label">Outputs with visible cited-by counts</span></div>
+          <div class="metric-card"><span class="metric-number">67</span><span class="metric-label">Visible citations across those outputs</span></div>
+          <div class="metric-card"><span class="metric-number">2026</span><span class="metric-label">Latest indexed preprints</span></div>
         </div>
-        <p class="source-note">Fetched from <a href="https://scholar.google.com/citations?hl=en&user=jzJL2csAAAAJ">Google Scholar</a> on 2026-05-28. Current research labels: Quantitative Investment, AI, Agent.</p>
+        <p class="source-note">Fetched from the Google Scholar pages linked in each publication on 2026-05-28. Only papers with an explicit “Cited by” count are included in the visible-citation total; Scholar-indexed preprints without a displayed count are not treated as zero.</p>
     design:
       columns: '1'
 
@@ -71,8 +71,8 @@ sections:
       subtitle: ''
       text: |
         <div class="paper-grid">
-          <a class="paper-card featured" href="publication/automate-strategy-finding-with-llm-in-quant-investment/"><span class="tag">Agent · EMNLP 2025 · 37 cites</span><h3>Automate Strategy Finding with LLM in Quant Investment</h3><p>LLM-supported discovery and audit of quantitative investment strategies.</p></a>
-          <a class="paper-card" href="publication/finmme/"><span class="tag">Benchmark · ACL 2025 · 29 cites</span><h3>FinMME</h3><p>Financial multi-modal reasoning evaluation for robust financial AI.</p></a>
+          <a class="paper-card featured" href="publication/automate-strategy-finding-with-llm-in-quant-investment/"><span class="tag">Agent · EMNLP 2025 · Scholar: 37</span><h3>Automate Strategy Finding with LLM in Quant Investment</h3><p>LLM-supported discovery and audit of quantitative investment strategies.</p></a>
+          <a class="paper-card" href="publication/finmme/"><span class="tag">Benchmark · ACL 2025 · Scholar: 29</span><h3>FinMME</h3><p>Financial multi-modal reasoning evaluation for robust financial AI.</p></a>
           <a class="paper-card" href="publication/learning-to-fuse-cost-sensitive-credit-assessment/"><span class="tag">Credit Agent · 2026</span><h3>Learning to Fuse</h3><p>Cost-sensitive credit assessment via hierarchical multi-agent reinforcement learning.</p></a>
         </div>
         <p class="center-link"><a href="outputs/">View the full research-output map</a></p>

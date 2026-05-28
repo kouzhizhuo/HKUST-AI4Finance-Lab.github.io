@@ -8,12 +8,11 @@ publication_types: ['article']
 publication: 'Annual Meeting of the Association for Computational Linguistics (ACL 2025)'
 publication_short: 'ACL 2025'
 abstract: 'FinMME is a benchmark dataset for financial multi-modal reasoning evaluation.'
-summary: 'A benchmark dataset for financial multi-modal reasoning evaluation. Google Scholar: 29 citations as of 2026-05-28.'
+summary: 'A benchmark dataset for financial multi-modal reasoning evaluation. Google Scholar displayed Cited by 29 when fetched on 2026-05-28.'
 tags:
   - Financial Benchmark
   - Multimodal Reasoning
   - Financial AI
-  - 'Scholar: 29 Citations'
 featured: true
 url_pdf: ''
 url_code: ''
@@ -34,6 +33,6 @@ slides: ''
 
 FinMME supports evaluation of financial multi-modal reasoning, with a focus on robustness and hallucination analysis in high-stakes financial settings.
 
-**Authors from Google Scholar:** Junyu Luo, Zhizhuo Kou, Liming Yang, Xiao Luo, Jinsheng Huang, Zhiping Xiao, Jingshu Peng, Chengzhong Liu, Jiaming Ji, Xuanzhe Liu.
+**Authors from Google Scholar:** Junyu* Luo, Zhizhuo* Kou, Liming* Yang, Xiao Luo, Jinsheng Huang, Zhiping Xiao, Jingshu Peng, Chengzhong Liu, Jiaming Ji, Xuanzhe Liu.
 
-**Scholar snapshot:** 29 citations, fetched 2026-05-28.
+**Scholar snapshot:** Google Scholar displayed **Cited by 29** when fetched on 2026-05-28.

@@ -8,12 +8,11 @@ publication_types: ['article']
 publication: 'EMNLP 2025'
 publication_short: 'EMNLP 2025'
 abstract: 'This project studies how LLMs can automate strategy discovery for quantitative investment.'
-summary: 'LLM-supported strategy discovery for quantitative investment. Google Scholar: 37 citations as of 2026-05-28.'
+summary: 'LLM-supported strategy discovery for quantitative investment. Google Scholar displayed Cited by 37 when fetched on 2026-05-28.'
 tags:
   - Financial Agents
   - Quantitative Investment
   - Strategy Automation
-  - 'Scholar: 37 Citations'
 featured: false
 url_pdf: ''
 url_code: ''
@@ -34,4 +33,4 @@ This project studies LLM-based strategy discovery for quantitative investment, w
 
 **Authors from Google Scholar:** Zhizhuo Kou, Holam Yu, Junyu Luo, Jingshu Peng, Xujia Li, Chengzhong Liu, Juntao Dai, Lei Chen, Sirui Han, Yike Guo.
 
-**Scholar snapshot:** 37 citations, fetched 2026-05-28.
+**Scholar snapshot:** Google Scholar displayed **Cited by 37** when fetched on 2026-05-28.
